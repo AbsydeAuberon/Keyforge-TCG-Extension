@@ -1,0 +1,91 @@
+
+body {
+	background-color: white;
+	width: 242px;
+	max-height: 310px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Open Sans", arial, sans-serif;
+}
+
+#searchBox {
+	margin: 3px 1px 0px 0px;
+	padding-left: 5px;
+	box-shadow: inset 0px 0px 1px #d9d9d9;
+	font-size: 13px;
+	width: 150px;
+	height: 25px;
+	border-radius: 4px;
+	border: 1px solid #C4C4C4;
+}
+
+#searchBox:focus {
+	outline: none;
+  border: 1px solid #7BC1F7;
+  box-shadow: inset 0px 0px 1px #4387fd;
+}
+
+#searchContainer {
+	text-align: left;
+	margin: 5px 0px 5px 5px;
+}
+
+.button {
+	outline: none;
+	font-size: 13px;
+	font-family: inherit;
+	color: white;
+	border: 0px;
+	background-image: -webkit-linear-gradient(#B22222,rgb(121, 38, 38));
+	cursor: pointer;
+}
+
+#playerButton {
+	margin-top: 0px;
+	margin-left: 0px;
+  	padding: 5px 7px 6px 7px;
+  	border-radius: 6px;
+}
+
+#DecksOfKeyforgeButton{
+	margin-top: 3px;
+	margin-left: 0px;
+	padding: 3px 3px;
+	background-image: -webkit-linear-gradient(rgba(55, 186, 247, 0.973),rgba(75, 130, 212, 0.973));
+	border-radius: 5px;
+}
+
+#KFCompendiumButton{
+	margin-top: 3px;
+	margin-left: 0px;
+	padding: 3px 3px;
+	background-image: -webkit-linear-gradient(rgba(159, 160, 161, 0.973),rgba(56, 56, 56, 0.973));
+	border-radius: 5px;
+}
+
+
+
+#playerButton:hover{
+  background-image: -webkit-linear-gradient(rgb(66, 0, 0),rgb(136, 38, 2));
+}
+
+#playerButton:active{
+	background-image: -webkit-linear-gradient(rgb(116, 19, 19),rgb(255, 0, 0));
+}
+
+#DecksOfKeyforgeButton:hover{
+	background-image: -webkit-linear-gradient(rgba(75, 130, 212, 0.973),rgba(206, 148, 39, 0.973));
+}
+
+#KFCompendiumButton:hover:hover{
+	background-image: -webkit-linear-gradient(rgba(24, 25, 48, 0.973),rgb(70, 70, 70));
+}
+
+#DecksOfKeyforgeButton:active{
+	background-image: -webkit-linear-gradient(rgb(136, 100, 0),rgba(206, 148, 39, 0.973));
+}
+
+#KFCompendiumButton:active:active{
+	background-image: -webkit-linear-gradient(rgba(1, 2, 24, 0.973),rgb(14, 14, 14));
+}
